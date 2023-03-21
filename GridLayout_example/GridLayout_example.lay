@@ -1,0 +1,5 @@
+LAYOUT(GridLayout_exampleLayout, 348, 284)
+	ITEM(GridLayout, GLa, HSizePosZ(8, 8).VSizePosZ(8, 84))
+	ITEM(GridLayout, GLc, SetFrame(Upp::BlackFrame()).HSizePosZ(8, 8).BottomPosZ(8, 68))
+END_LAYOUT
+
