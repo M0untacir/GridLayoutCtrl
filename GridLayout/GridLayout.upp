@@ -1,0 +1,10 @@
+description "Layout Grid: Layout rows and columns\377B44,169,203";
+
+uses
+	CtrlLib;
+
+file
+	GridLayout.h,
+	GridLayout.cpp,
+	GridLayout.usc;
+

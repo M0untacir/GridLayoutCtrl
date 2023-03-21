@@ -1,0 +1,18 @@
+ctrl GridLayout {
+	group "Special";
+
+	GetMinSize() { return Size(0, 0); }
+	GetStdSize() { return Size(128, 64); }
+
+	Frame SetFrame @3;
+
+	Paint(w) {
+		r = GetRect();
+		DrawCtrlFrame(w, r, .SetFrame);
+		DrawBorder(w, r, :SGray, :SGray);
+
+		DrawClassName(w, r, "Grid Layout");
+	}
+	
+	Sample() {}
+};
