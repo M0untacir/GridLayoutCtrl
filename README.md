@@ -6,7 +6,7 @@ All i did was striping down the Splitter Ctrl to its bare minimum then making it
 
  ![](https://github.com/M0untacir/GridLayout/blob/main/LayoutGrid.gif)
 
-##Usage:
+## Usage
 Set the number of columns using `SetColumns(int col)` method then add your Ctrls with `Add(Ctrl& pane)`:
 
  ![](https://github.com/M0untacir/GridLayout/blob/main/Layout_editor_Rc.png)
