@@ -1,9 +1,9 @@
-#include "GridLayout.h"
+#include "GridLayoutCtrl.h"
 
 using namespace Upp;
 
 
-void GridLayout::Layout() {
+void GridLayoutCtrl::Layout() {
 	Size sz = GetSize();
 	int count = GetViewChildCount();
 	if(count == 0)
@@ -29,13 +29,13 @@ void GridLayout::Layout() {
 
 }
 
-void GridLayout::Add(Ctrl& pane)
+void GridLayoutCtrl::Add(Ctrl& pane)
 {
 	Ctrl::Add(pane);
 	Layout();
 }
 
-void GridLayout::Insert(int ii, Ctrl& pane)
+void GridLayoutCtrl::Insert(int ii, Ctrl& pane)
 {
 	if(ii >= GetCount())
 		Add(pane);
@@ -45,7 +45,7 @@ void GridLayout::Insert(int ii, Ctrl& pane)
 	}
 }
 
-void GridLayout::Remove(Ctrl& ctrl)
+void GridLayoutCtrl::Remove(Ctrl& ctrl)
 {
 	Ctrl *c = GetFirstChild();
 	while(c) {
@@ -57,16 +57,16 @@ void GridLayout::Remove(Ctrl& ctrl)
 	}
 }
 
-void GridLayout::Clear() {
+void GridLayoutCtrl::Clear() {
 	while(GetFirstChild())
 		RemoveChild(GetFirstChild());
 }
 
-void GridLayout::Reset() {
+void GridLayoutCtrl::Reset() {
 	Clear();
 }
 
-GridLayout::GridLayout() {
+GridLayoutCtrl::GridLayoutCtrl() {
 	Transparent(true);
 	col_ = 1;
 	SetFrame(NullFrame());
@@ -74,5 +74,5 @@ GridLayout::GridLayout() {
 	VSizePos(0, 0).HSizePos(0, 0);
 }
 
-GridLayout::~GridLayout() {}
+GridLayoutCtrl::~GridLayoutCtrl() {}
 

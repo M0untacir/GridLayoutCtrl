@@ -1,8 +1,8 @@
-#include "GridLayout_example.h"
+#include "GridLayout.h"
 
-GridLayout_example::GridLayout_example()
+GridLayout::GridLayout()
 {
-	CtrlLayout(*this, "Layout Grid Example");
+	CtrlLayout(*this, "GridLayoutCtrl Example");
 	GLa.SetColumns(3);
 	btnA.SetLabel("A");
 	btnB.SetLabel("B");
@@ -24,6 +24,7 @@ GridLayout_example::GridLayout_example()
 	btn2.SetLabel("2");
 	btn3.SetLabel("3");
 	btn4.SetLabel("4");
+	GLb.Add()
 	GLb.Add(btn1);
 	GLb.Add(btn2);
 	GLb.Add(btn3);
@@ -65,5 +66,5 @@ GridLayout_example::GridLayout_example()
 
 GUI_APP_MAIN
 {
-	GridLayout_example().Zoomable().Sizeable().Run();
+	GridLayout().Zoomable().Sizeable().Run();
 }

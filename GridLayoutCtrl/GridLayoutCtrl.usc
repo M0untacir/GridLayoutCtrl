@@ -1,4 +1,4 @@
-ctrl GridLayout {
+ctrl GridLayoutCtrl {
 	group "Special";
 
 	GetMinSize() { return Size(0, 0); }

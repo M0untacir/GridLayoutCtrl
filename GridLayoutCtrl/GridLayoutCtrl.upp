@@ -4,7 +4,7 @@ uses
 	CtrlLib;
 
 file
-	GridLayout.h,
-	GridLayout.cpp,
-	GridLayout.usc;
+	GridLayoutCtrl.h,
+	GridLayoutCtrl.cpp,
+	GridLayoutCtrl.usc;
 
