@@ -1,6 +1,6 @@
-#include "GridLayout.h"
+#include "GridLayoutCtrl_example.h"
 
-GridLayout::GridLayout()
+GridLayoutCtrl_example::GridLayoutCtrl_example()
 {
 	CtrlLayout(*this, "GridLayoutCtrl Example");
 	GLa.SetColumns(3);
@@ -24,7 +24,7 @@ GridLayout::GridLayout()
 	btn2.SetLabel("2");
 	btn3.SetLabel("3");
 	btn4.SetLabel("4");
-	GLb.Add()
+
 	GLb.Add(btn1);
 	GLb.Add(btn2);
 	GLb.Add(btn3);
@@ -66,5 +66,5 @@ GridLayout::GridLayout()
 
 GUI_APP_MAIN
 {
-	GridLayout().Zoomable().Sizeable().Run();
+	GridLayoutCtrl_example().Zoomable().Sizeable().Run();
 }

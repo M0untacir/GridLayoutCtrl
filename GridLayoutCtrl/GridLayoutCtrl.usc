@@ -11,7 +11,7 @@ ctrl GridLayoutCtrl {
 		DrawCtrlFrame(w, r, .SetFrame);
 		DrawBorder(w, r, :SGray, :SGray);
 
-		DrawClassName(w, r, "Grid Layout");
+		DrawClassName(w, r, "GridLayoutCtrl");
 	}
 	
 	Sample() {}

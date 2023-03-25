@@ -6,10 +6,10 @@
 
 using namespace Upp;
 
-#define LAYOUTFILE <GridLayout/GridLayout.lay>
+#define LAYOUTFILE <GridLayoutCtrl_example/GridLayoutCtrl_example.lay>
 #include <CtrlCore/lay.h>
 
-class GridLayout : public WithGridLayout_exampleLayout<TopWindow> {
+class GridLayoutCtrl_example : public WithGridLayout_exampleLayout<TopWindow> {
 public:
 	Button btnA, btnB, btnC, btnD, btnE, btnF;
 	Button btn1, btn2, btn3, btn4;
@@ -24,7 +24,7 @@ public:
 	
 	ParentCtrl PC;
 	
-	GridLayout();
+	GridLayoutCtrl_example();
 };
 
 #endif
