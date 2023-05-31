@@ -1,8 +1,6 @@
 # GridLayoutCtrl
- wxWidgets Sizers like Ctrl for *[U++ framework](https://github.com/ultimatepp/ultimatepp)*
+GridLayoutCtrl is a *[U++ framework](https://github.com/ultimatepp/ultimatepp)* Ctrl that organizes child Ctrls in a grid-like structure, where each Ctrl has the same size.
 
-
-All i did was striping down the Splitter Ctrl to its bare minimum then making it stack added Ctrls by colmuns.
 
  ![](https://github.com/M0untacir/GridLayout/blob/main/LayoutGrid.gif)
 

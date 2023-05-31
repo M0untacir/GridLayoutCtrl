@@ -1,0 +1,12 @@
+uses
+	CtrlLib,
+	GridLayoutCtrl;
+
+file
+	GridLayoutCtrlExample.h,
+	GridLayoutCtrlExample.cpp,
+	GridLayoutCtrlExample.lay;
+
+mainconfig
+	"" = "GUI";
+

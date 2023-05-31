@@ -1,4 +1,4 @@
-description "Layout Grid: Layout rows and columns\377B44,169,203";
+description "GridLayoutCtrl is a Ctrl that organizes child Ctrls in a grid-like structure, where each Ctrl has the same size.\377B44,169,203";
 
 uses
 	CtrlLib;
