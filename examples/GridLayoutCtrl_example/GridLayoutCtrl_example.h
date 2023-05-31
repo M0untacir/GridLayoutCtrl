@@ -6,7 +6,7 @@
 
 using namespace Upp;
 
-#define LAYOUTFILE <GridLayoutCtrl_example/GridLayoutCtrl_example.lay>
+#define LAYOUTFILE <examples/GridLayoutCtrl_example/GridLayoutCtrl_example.lay>
 #include <CtrlCore/lay.h>
 
 class GridLayoutCtrl_example : public WithGridLayout_exampleLayout<TopWindow> {
